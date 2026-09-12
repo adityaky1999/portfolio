@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowDownRight, ArrowUpRight, Circle, Mail, Linkedin, Github, MoveUpRight } from "lucide-react";
+import { ArrowDownRight, ArrowUpRight, Circle, Mail, Github, MoveUpRight } from "lucide-react";
 import { motion } from "framer-motion";
 
 const skills = [
@@ -187,7 +187,7 @@ export default function Portfolio() {
           <h2 className="font-display mt-8 max-w-5xl text-[16vw] leading-[0.84] tracking-[-0.08em] md:text-[9rem]">LET’S BUILD<br /><span className="text-white/30">SOMETHING</span><br />USEFUL<span className="text-[#d6ff00]">.</span></h2>
           <div className="mt-14 flex flex-wrap gap-3">
             <a href="mailto:adityaky1999@gmail.com" className="inline-flex items-center gap-3 rounded-full bg-white px-6 py-4 text-sm font-semibold text-black transition hover:-translate-y-1"><Mail size={17} /> Email me</a>
-            <a href="https://www.linkedin.com/in/aditya-yadav-b18451166" target="_blank" rel="noreferrer" className="inline-flex items-center gap-3 rounded-full border border-white/15 px-6 py-4 text-sm font-semibold transition hover:-translate-y-1 hover:border-white/30"><Linkedin size={17} /> LinkedIn <ArrowUpRight size={15} /></a>
+            <a href="https://www.linkedin.com/in/aditya-yadav-b18451166" target="_blank" rel="noreferrer" className="inline-flex items-center gap-3 rounded-full border border-white/15 px-6 py-4 text-sm font-semibold transition hover:-translate-y-1 hover:border-white/30"><span className="flex h-4 w-4 items-center justify-center rounded-[3px] bg-current text-[10px] font-black leading-none"><span className="-translate-y-px">in</span></span> LinkedIn <ArrowUpRight size={15} /></a>
             <a href="https://github.com/adityaky1999" target="_blank" rel="noreferrer" className="inline-flex items-center gap-3 rounded-full border border-white/15 px-6 py-4 text-sm font-semibold transition hover:-translate-y-1 hover:border-white/30"><Github size={17} /> GitHub <ArrowUpRight size={15} /></a>
           </div>
           <div className="mt-20 flex flex-col justify-between gap-4 border-t border-white/10 pt-5 text-xs uppercase tracking-[0.16em] text-white/30 md:flex-row"><span>Aditya Kumar Yadav</span><span>Senior Data Scientist</span><span>© 2026</span></div>
